@@ -1,15 +1,15 @@
 version: 1.14.0
-slug: duckdns
-name: Duck DNS
+slug: duckdns_wildcard
+name: Duck DNS (Wildcard Support)
 description: Free Dynamic DNS (DynDNS or DDNS) service with Let's Encrypt support
-url: https://github.com/home-assistant/hassio-addons/tree/master/duckdns
+url: https://github.com/liads/home-assistant-addons/tree/duckdns-wildcard/duckdns
 arch:
   - armhf
   - armv7
   - aarch64
   - amd64
   - i386
-image: homeassistant/{arch}-addon-duckdns
+#image: liads/{arch}-addon-duckdns
 map:
   - ssl:rw
 options:

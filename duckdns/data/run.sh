@@ -55,8 +55,8 @@ if bashio::config.true 'lets_encrypt.accept_terms'; then
 
     # Generate new certs
     if [ ! -d "${CERT_DIR}/live" ]; then
-        # Create empty dehydrated config file so that this dir will be used for storage
-        touch "${WORK_DIR}/config"
+        # Create dehydrated config file so that this dir will be used for storage and enable sequential hook mode
+        echo "HOOK_SEQ=\"yes\"">"${WORK_DIR}/config"
 
         dehydrated --register --accept-terms --config "${WORK_DIR}/config"
     fi
