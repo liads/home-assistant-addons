@@ -1,5 +1,41 @@
 # Changelog
 
+## 0.1.60
+
+- Fix permissions issue with startup scripts
+
+## 0.1.59
+
+- Bump Z-Wave JS to 9.3.0
+- Bump Z-Wave JS Server to 1.17.0
+
+## 0.1.58
+
+- Bump Z-Wave JS to 9.0.7
+- Bump Z-Wave JS Server to 1.16.1
+
+## 0.1.57
+
+- Bump Z-Wave JS to 9.0.4
+
+## 0.1.56
+
+- Bump Z-Wave JS to 9.0.2
+- Bump Z-Wave JS Server to 1.16.0
+
+## 0.1.55
+
+- Bump Z-Wave JS to 8.11.9
+
+## 0.1.54
+
+- Bump Z-Wave JS to 8.11.6
+- Bump Z-Wave JS Server to 1.15.0
+
+## 0.1.53
+
+- Bump Z-Wave JS to 8.11.5
+
 ## 0.1.52
 
 - Bump Z-Wave JS to 8.10.2
